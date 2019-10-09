@@ -11,4 +11,5 @@ def collect(collection)
   new_collection
 end
 
-collect { |n| collection[n].split("").first}
+collect { |n| collection[n].split("")
+}
