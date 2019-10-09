@@ -5,8 +5,12 @@ def collect(collection)
   new_collection=[]
   while i<collection.length
     new_collection<<
-    yield collection[i]
+    yield 
     i+=1
   end
   new_collection
 end
+
+collect {
+  collection.split(" ").first
+}
