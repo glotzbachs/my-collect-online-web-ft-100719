@@ -3,7 +3,7 @@ def collect(collection)
   new_collection=[]
   while i<collection.length
     new_collection<<
-    yield collection[i].split(" ")
+    yield collection[i].split(" ").first
     i+=1
   end
   new_collection
