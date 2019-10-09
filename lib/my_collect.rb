@@ -10,4 +10,4 @@ def collect(collection)
   new_collection
 end
 
-collect("") {collection[n].split("").first}
+collect("") {collection[i].split("").first}
