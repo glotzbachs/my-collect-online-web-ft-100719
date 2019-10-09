@@ -1,6 +1,6 @@
 
 def collect(collection)
-  i=1
+  i=0
   new_collection=[]
   while i<collection.length
     new_collection<<
@@ -10,4 +10,4 @@ def collect(collection)
   new_collection
 end
 
-collect("") {collection[n].split("")}
+collect("") {collection[n].split("").first}
