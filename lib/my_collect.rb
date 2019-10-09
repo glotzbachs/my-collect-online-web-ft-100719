@@ -1,5 +1,6 @@
 def collect(collection)
   i=1
 
-  while collection.length<
+  while i<collection.length
+  
 end
