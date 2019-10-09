@@ -1,4 +1,3 @@
-require.pry
 
 def collect(collection)
   i=1
